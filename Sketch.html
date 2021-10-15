@@ -1,0 +1,149 @@
+<!DOCTYPE html> <!-- This is a comment in the html file -->
+<!--
+    Block Level: <div>, <h1>-<h6>,<p>,<form>
+    Inline Level: <span>,<img>,<a>
+-->
+<html>
+    <head>
+        <title>Masens test page</title>
+    </head>
+    <body>
+        <a href="SketchBlog.html">Go to blog</a>
+        <hr>
+        <h1>Biggest Heading</h1>
+
+        <!-- Paragraph -->
+        <p>
+            Ad el, peredeum ima, esta seducum. Ad el, peredeum ima, esta seducum. 
+            Ad el, peredeum ima, esta seducum. Ad el, peredeum ima, esta seducum. 
+            <strong>Ad el, peredeum ima, esta seducum</strong>. Ad el, peredeum ima, esta seducum. 
+            Ad el, peredeum ima, esta seducum. Ad el, peredeum ima, esta seducum. 
+            Ad el, peredeum ima, esta seducum. Ad el, <em>peredeum ima, esta seducum.</em> 
+        </p>
+        <p>
+            <a href="http://google.com" target="_blank">Me gusta mi tara paja mara</a>
+            Ad el, peredeum ima, esta seducum. Ad el, peredeum ima, esta seducum. 
+            Ad el, peredeum ima, esta seducum. Ad el, peredeum ima, esta seducum. 
+            Ad el, peredeum ima, esta seducum. Ad el, peredeum ima, esta seducum. 
+            Ad el, peredeum ima, esta seducum. Ad el, peredeum ima, esta seducum. 
+            Ad el, peredeum ima, esta seducum. Ad el, peredeum ima, esta seducum. 
+        </p>
+
+        <!-- Lists -->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+
+        <!-- Table -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mas Karlson</td>
+                    <td>Mas.com</td>
+                    <td>32</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Massan Larlson</td>
+                    <td>maser.com</td>
+                    <td>23</td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr>
+                    <td>Sam Noslrak</td>
+                    <td>nos.com</td>
+                    <td>82</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Forms -->          <!-- get works too, byt unsafe for data -->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName"
+                placeholder="Enter First Name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName"
+                placeholder="Enter Last Name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email"
+                placeholder="Enter E-mail">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea>name="message"</textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="Gender">
+                    <option value="male"></option>
+                    <option value="female"></option>
+                    <option value="other"></option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="Age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+        <!-- Button -->
+        <buton>Click Me</buton>
+        
+        <!-- Image --><!-- When setting width or height, other value is set by auto-->
+        <a href="Images/treebackground.jpg">
+            <img src="Images/treebackground.jpg" alt="A treebackground" width="200">
+        </a>
+        
+        <!-- Quoatations-->
+        <blockquote cite="http://google.com">
+            aduru dududududururu
+        </blockquote>
+
+        <p>The <abbr title="World Wide Wed">WWW</abbr> is awesome</p>
+
+        <p><cite>HTML crash course</cite> by Brad Traversy</p>
+
+
+        <div style="margin-top:500px"></div>
+    </body>
+</html>
