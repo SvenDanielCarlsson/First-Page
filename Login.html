@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <Title>Assignment 1 Login</Title>
+    </head>
+    <body>
+        <header>
+            <h1>Cool Logo</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://google.com" target="_blank">Go to Google</a>
+                    </li>
+                    <li>
+                        <a href="https://thomann.de" target="_blank">Go to Thomann</a>
+                    </li>
+                    <li>
+                        <a href="https://thomann.de/se/guitarlab.html" target="_blank">Go to Thomann: Guitar Lab</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="A-Index.html">Index Page</a>
+        </header>
+        <main>
+            <h3>Login</h3>
+            <form action="Result.html" method="GET">     <!-- form will need an action="page direction", method="get" == not safe for login? -->
+                <div>
+                    <label for="name">Username</label><br>
+                    <input type="text" name="username" id="name" placeholder="Enter your username" required>
+                </div>
+                <div>
+                    <label for="passworden">Password</label><br>
+                    <input type="password" name="password" id="passworden" placeholder="Enter your password" required>
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </form>
+        </main>
+        <footer>
+            <span>&copy; Daniel Carlsson</span>
+        </footer>
+    </body>
+</html>
